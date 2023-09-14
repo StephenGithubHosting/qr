@@ -21,7 +21,7 @@ function App() {
       qrscanner.clear();
       setScanResult(res)
       console.log(res);
-      window.location.href = 'https://' + res;
+      window.location.href = res;
     }
     function error(err) {
       console.error(err);
